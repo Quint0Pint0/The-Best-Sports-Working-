@@ -1,0 +1,280 @@
+/* Elements */
+html {
+    scroll-behavior: smooth;
+   } 
+   
+   body {
+    background-color: rgb(0, 72, 255)
+  }
+  
+
+   p {
+     color: rgb(213, 0, 255);
+     font-family:sans-serif;
+     font-size: 17px;
+     text-shadow: 1px 1;
+     font-weight: bold;
+   
+   }
+   h1 {
+     font-weight: bold;
+     font-family:arial;
+     text-align: center;
+     text-shadow:1px 2px;
+     color:aqua
+   }
+   h2 {
+     font-weight: bold;
+     font-family:cursive;
+     text-align: center;
+     font-size: 28px;
+     text-shadow: 1px 1px;
+
+   }
+
+   h3{
+     
+    font-family:sans-serif;
+    font-size:16px;
+    text-decoration:underline;
+    color:crimson;
+    text-shadow: 1px 1px;
+    
+  }
+   
+   ul{
+     font-family: cursive;
+     font-style: italic;
+     font-weight: bold;
+     color:#16ee16
+   }
+   
+   ol{
+     font-family: cursive;
+     font-style: italic;
+     text-decoration: underline;
+     color:#16ee16;
+     font-weight: bold
+   }
+   
+   img {
+     border: solid;
+     color: #fe0000;
+     border-radius: 20px;
+     border-width:thick;
+     
+   }
+   
+   textarea {
+   
+     background: rgb(255,214,0)
+   
+   }
+   
+   table {
+     font-size: 22px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 900px;
+     height: 190px;
+   }
+   
+   /* Classes */
+   
+   /*Start of Navagation Dropdown Styles */
+   
+   /* Navbar container */
+   .navbar {
+     overflow: hidden;
+     background-color: #333;
+     font-family: Arial;
+   }
+   
+   /* Links inside the navbar */
+   .navbar a {
+     float: left;
+     font-size: 16px;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+   
+   /* The dropdown container */
+   .dropdown {
+     float: left;
+     overflow: hidden;
+   }
+   
+   /* Dropdown button */
+   .dropdown .dropbtn {
+     font-size: 16px;
+     border: none;
+     outline: none;
+     color: white;
+     padding: 14px 16px;
+     background-color: inherit;
+     font-family: inherit; /* Important for vertical align on mobile phones */
+     margin: 0; /* Important for vertical align on mobile phones */
+   }
+   
+   /* Add a red background color to navbar links on hover */
+   .navbar a:hover, .dropdown:hover .dropbtn {
+     background-color: red;
+   }
+   
+   /* Dropdown content (hidden by default) */
+   .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+   }
+   
+   /* Links inside the dropdown */
+   .dropdown-content a {
+     float: none;
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+   }
+   
+   /* Add a grey background color to dropdown links on hover */
+   .dropdown-content a:hover {
+     background-color: #ddd;
+   }
+   
+   /* Show the dropdown menu on hover */
+   .dropdown:hover .dropdown-content {
+     display: block;
+   }
+   
+   .NOhover {
+    background-color:transparent;
+    pointer-events: none;
+    cursor: default;
+    
+
+    
+    
+  }
+   /* end of navagation styles */
+   .p-form {
+     color: rgb(0, 72, 255);
+     text-shadow: 1px 1px
+   }
+   
+   
+   /* hover image styles */
+   .hover-soccer:hover {
+     border-width: 10px;
+     border-color: green;
+     width: 400px;
+     cursor: pointer
+   }
+   
+   .hover-football:hover {
+     border-width: 10px;
+     border-color: green;
+     width: 300px;
+     cursor: pointer
+   }
+   
+   .hover-basketball:hover {
+     border-width: 10px;
+     border-color: green;
+     width: 700px;
+     cursor: pointer
+   }
+   
+   .code:hover {
+     border-width: 10px;
+     border-color: rgb(0, 255, 0);
+     width:20%;
+   }
+
+   /* End of hover styles for images */
+   
+   .code {
+      border-color:yellow;
+      border-width: 5px;
+      border-style: solid;
+   }
+   
+   /* Self explanitory (If your a timmeh its for the checkbox styles) */
+   
+   /* Styles for HR's */
+   .HRred {
+     border-color: red;
+   }
+   
+   .HRgreen {
+     border-color:limegreen;
+     border-width: 2px;
+     
+   }
+   /* End of Hr Styles */
+   
+
+   /* End of Classes */
+   
+      /* Styles for Main part of Webpage (The sports) */
+      #basketball {
+        background-image: url(../Images/Backgrounds/Basketball-background.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 100%;
+        max-width: 100%;
+        max-height:100%;
+        min-height: 100%;
+        
+      }
+      
+      #soccer {
+        background-image: url(../Images/Backgrounds/Soccer-background.jpeg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 100%;
+        max-width: 100%;
+        max-height:100%;
+        min-height: 100%;
+      }
+      
+      #football {
+        
+        background-image: url(../Images/Backgrounds/Football-background.jpg);
+        background-size: 100% 130%;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 100%;
+        max-width: 100%;
+       
+      }
+   
+   
+   #submit {
+     font-size: 15px
+   }
+
+  
+ 
+   
+   #endform {
+    background-image: url(../Images/Backgrounds/Background-form.jpg);
+    border-image: url(sports.jpeg);
+    border-radius: 10px;
+    border:solid;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: red;
+    border-color: chartreuse;
+  
+  }
+
+   /* End of Id's */

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 
+  Use "../" before the image path if the image folder is outside the current folder.
+  Example: <img src="../images/example.jpg">
+  This moves up one level to find the "images" folder.
+  -->
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Sports, Cool Sports, The best sports">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="Mainpage.css">
+    <title>My HTML Webpage</title>
+    <style>
+      /* Start of Sport Heading */
+      .basketball {
+        color: rgb(255, 125, 3); 
+      }
+
+      .soccer {
+         color: rgb(255, 0, 0);      
+        
+        }
+
+      .football {
+        color: rgb(47, 0, 255); 
+      }
+
+      .stylesforsportheading {
+        border: solid;
+        border-color: rgb(255, 3, 242); /* Pink border color */
+        border-radius: 5px; /* Added border radius for smoother corners */
+        margin-left: 600px;
+        margin-right: 600px;
+        padding: 10px; /* Added padding for spacing inside the border */
+        text-align: center;
+        text-shadow: 0 0 12px rgb(60, 255, 0)
+      }
+      /* End of Sport Heading */
+
+      .textforsportsectionstylesforlink {
+
+        text-align: left;
+        padding-left: 400px;
+        padding-right: 400px;
+        font-size: 20px;
+
+        }
+
+      .textforsportsectionstyles {
+
+        text-align: center;
+        padding-left: 400px;
+        padding-right: 400px;
+        font-size: 24px;
+        text-shadow: 0 0 10px #00ffff;
+        color: red;
+
+      }
+
+      table {
+        background: #ff00cc;
+        border-top-color: red;
+        border-left-color: red;
+        border-bottom-color: blue;
+        border-right-color: blue;
+      }
+
+      #Learntocode {
+        text-align:center;
+        background-color: red;
+      }
+
+      body {
+        border-radius: 10px;
+        border-style: dashed;
+        border-width: 7px;
+        border-top-color: green;
+        border-right-color: green;
+        border-bottom-color: red;
+        border-left-color: red;
+        padding: 20px;
+      }
+
+        #Startofhomepagebackground {
+
+    background-image: linear-gradient(to right, #32CD32, #FFD700);
+    
+   }
+
+   #Backgroundforsportssection {
+    background-image: linear-gradient(to right, green, red);
+    background-size: 100% 100%;
+   }
+   
+  #endofhomepage {
+
+    background-image: linear-gradient(to right, midnightblue, green)
+  }
+
+    </style>
+  </head>
+  
+  <body>
+  <div id="Startofhomepagebackground">
+    <!--This webpage is going to be about sports-->
+    <marquee scrollamount="25" scrolldelay="0" >
+      <h1 style="color: rgb(0, 2, 141); text-shadow: 0 0;"> ⚽🏈🏀The Best Sports🏀🏈⚽</h1> 
+    </marquee>
+   
+    <nav> 
+      <div class="navbar">
+        <a class="NOhover" href="Navigation Menu" style="font-size: 22px; font-family:fantasy; letter-spacing:1px">Navigation Bar</a>
+
+        <!-- Pages/HTML's dropdown -->    
+        <div id="Pages" class="dropdown">
+          <button class="dropbtn">Pages <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <hr>
+            <a href="sportsform.php">Sport Form</a>
+            <hr>
+          </div>  
+        </div>
+    
+        <!-- Sections/Bookmark dropdown -->    
+        <div id="section" class="dropdown">
+          <button class="dropbtn">Sections <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+           <hr>
+            <a href="#basketball">Basketball</a>
+            <hr>
+            <a href="#soccer">Soccer</a>
+            <hr>
+            <a href="#football">Football</a>
+            <hr>
+            <a href="#sporttable">Sport Table</a>
+            <hr>
+          </div>  
+        </div>
+      </div>
+    </nav>
+
+    <hr class="HRred">
+    <header> 
+      <p style="font-size: 19px; color: rgb(255, 0, 0)">There are tons of sports in the world and all of them are really good. Today, I will be talking about Basketball, Soccer, and Football. Other sports in the world include but are not limited to:</p>
+    </header>
+    
+    <ul style="font-family:cursive; font-size:20px; color: blue">
+      <li> Baseball </li>
+      <li> Volley Ball </li>
+      <li> Golf </li>
+      <li> Swimming </li>
+      <li> Racing </li>
+      <li> Hockey</li>
+    </ul>
+
+    <hr class="HRred">
+    <p style="font-size: 19px; color: rgb(255, 0, 0)">That's just a few of all the sports in the world. My personal favorite are: </p>
+    
+    <ol style="font-family:cursive; font-size:20px; color: rgb(4, 0, 255);">
+      <li>Basketball</li>
+      <li>Football</li>
+      <li>Soccer</li>
+    </ol>
+   
+     
+      </div>
+      <hr class="HRred">
+      <hr class="HRgreen">
+      <div id="Backgroundforsportssection">  
+
+      
+      <!-- Start of Sports/Main Section -->
+      <article>
+          <div id="basketball">
+            <h2 id="basketball_content" class="basketball stylesforsportheading">🏀Basketball🏀</h2>
+            <p class="textforsportsectionstyles">Basketball is a game where two teams of 5 dribble a ball and try to make the ball into a basket for points. The team with the most points at the end wins.</p>
+            <img class="hover-basketball" src="../Images/Pictures/Basketball-html.jpg" alt="Basketball" width="600" height="300">
+          </div>
+
+          <hr class="HRgreen">
+
+          <div id="soccer">
+            <h2 id="soccer_content" class="stylesforsportheading soccer">⚽Soccer⚽</h2>
+            <h3 style="text-align:center; margin-left: 600px; margin-right: 600px; color:#FFD700; font-size: 20px;">(Also Called Football)</h3>
+            <p class="textforsportsectionstyles">Soccer is game in which two teams of 11 players, using any part of their bodies except their hands and arms, try to maneuver the ball into the opposing team’s goal.</p>
+            <a href="https://www.britannica.com/sports/American-football" target="_blank">
+              <p class="textforsportsectionstylesforlink" style="font-weight: bold; color:skyblue; text-decoration: none;">-Britannica</p>
+            </a>
+            <img class="hover-soccer" src="../Images/Pictures/Soccer-html.jpg" alt="Soccer Ball" width="380">
+          </div>
+
+          <hr class="HRgreen">
+          
+          <div id="football">
+            <h2 id="football_content" class="stylesforsportheading football" 
+            style="border: solid;
+            border-color: rgb(255, 3, 242); /* Pink border color */
+            border-radius: 5px; /* Added border radius for smoother corners */
+            margin-left: 500px;
+            margin-right: 500px;
+            padding: 10px; /* Added padding for spacing inside the border */"
+            >🏈 American Football🏈</h2>
+            <p class="textforsportsectionstyles" style="color: red">American football is a game that is played by two teams of eleven players using an oval-shaped ball. Players try to score points by passing or carrying the ball to their opponents' end of the field.</p> 
+            <a href="https://www.collinsdictionary.com/us/dictionary/english/football" target="_blank">
+              <p class="textforsportsectionstylesforlink" style="font-weight: bold; color: skyblue; text-decoration: none;">-Collins Dictionary</p>
+            </a>
+            <img class="hover-football" src="../Images/Pictures/Football-html.jpg" alt="Football" width="230">
+          </div>
+      </article>
+
+      <hr class="HRgreen">
+      <hr class="HRred">
+      <!-- End of Sports/Main Section -->
+<div id="endofhomepage">
+  <!-- Sport Table -->
+  <h1>Sport Table</h1>
+  <table border="5" style="font-family:cursive; text-align: center;">
+    <tr>
+      <th style="font-family: Arial; text-align: left;">Name</th>
+      <th><i>Basketball</i></th>
+      <th colspan="2"><i>Soccer</i></th>
+      <th><i>Football</i></th>
+    </tr>
+    <tr>
+      <td style="font-family:Arial; text-align: left;"><b>Color</b></td>
+      <td colspan="2">Orange</td>
+      <td>Black & white</td>
+      <td>Brown</td>
+    </tr>
+    <tr>
+      <td style="font-family:Arial; text-align: left;"><b>What it uses</b></td>
+      <td colspan="2">Hands</td>
+      <td>Feet</td>
+      <td>Hands</td>
+    </tr>
+  </table>
+
+  <br><br><br>
+  <hr class="HRred">
+
+  <!-- Learn to Code Image Link -->
+  <div id="Learntocode" style="background: transparent">
+    <h2 style="color: black; text-shadow: 0px 0px">Want to learn how to code and make a webpage? Click this image!</h2>
+    <a href="https://www.w3schools.com/" target="_blank">
+      <img src="../Images/Pictures/code.jpg" alt="Code" class="code" />
+    </a>
+  </div>
+
+  <hr class="HRred">
+  
+  <footer>  
+    <h2 style="color:rgb(0, 0, 0); text-align: center; text-shadow: 0px 0px">So to conclude, there are so many sports in the world and tons to choose from. So what's your favorite?</h2>
+  </footer>
+
+  <!-- Link for Sports Form -->
+  <div> 
+    <div style="border-style:dotted; border-color:magenta; margin-top: auto; margin-bottom: auto; margin-left:500px; margin-right: 500px; background-color: turquoise;"> 
+      <a href="sportsform.php">
+        <h2 style="color:rgb(0, 0, 0); text-align: center; text-shadow: 0px 0px">Click this to go to the Sports Form!</h2>
+      </a>
+    </div>
+  </div>
+</div> <!-- End of #endofhomepage -->
+  </body>
+</html>
